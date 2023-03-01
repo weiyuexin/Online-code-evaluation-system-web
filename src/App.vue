@@ -1,14 +1,20 @@
 <template>
   <div id="app">
     <router-view></router-view>
+    <NavBar></NavBar>
+    <Footer></Footer>
   </div>
 </template>
 
 <script>
-
+import NavBar from "@/components/oj/common/NavBar";
+import Footer from "@/components/oj/common/Footer";
 export default {
   name: 'App',
-  components: {}
+  components: {
+    NavBar,
+    Footer
+  }
 }
 </script>
 
