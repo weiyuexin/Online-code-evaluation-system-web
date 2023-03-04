@@ -1,22 +1,19 @@
 <template>
-<NavBar></NavBar>
+  <div>
+    <NavBar :active="`/`"></NavBar>
+  </div>
 </template>
 
 <script>
 import NavBar from "@/components/oj/common/NavBar";
+
 export default {
   name: 'Main',
   data() {
     return {
-      pickerOptions: {
-        disabledDate(time) {
-          return time.getTime() > Date.now();
-        },
-      },
-      value1: '',
     }
   },
-  components:{
+  components: {
     NavBar
   }
 }
