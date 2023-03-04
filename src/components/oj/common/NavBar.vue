@@ -42,10 +42,6 @@ export default {
   border-bottom: solid 1px #EFF3F5;
 }
 
-.oj-navbar ul li a {
-  font-size: 300px;
-}
-
 .logo {
   width: 150px !important;
 }
@@ -76,4 +72,5 @@ export default {
   width: 80px;
   height: 60px;
 }
+
 </style>
