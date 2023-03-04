@@ -8,11 +8,11 @@
 import NavBar from "@/components/oj/common/NavBar.vue";
 
 export default {
-  name: "ProblemList",
+  name: "ContestList",
   data() {
     return {};
   },
-  components: {
+  components:{
     NavBar
   }
 }
