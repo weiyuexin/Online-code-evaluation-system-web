@@ -25,6 +25,10 @@ export default {
   width: 100%;
   height: 1000px;
 }
+body,html{
+  margin: 0;
+  padding: 0;
+}
 a{
   text-decoration: none;
 }

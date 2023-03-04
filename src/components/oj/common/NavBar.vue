@@ -2,8 +2,8 @@
   <el-menu :default-active="activeIndex" active-text-color="#409EFF" class="oj-navbar" mode="horizontal"
            @select="handleSelect">
     <el-menu-item index="0" class="logo"><img src="@/assets/logo.png"/></el-menu-item>
-    <el-menu-item index="1"><a href="https://www.ele.me"><i class="el-icon-s-home"></i>Home</a></el-menu-item>
-    <el-menu-item index="2"><a href="https://www.ele.me"><i class="el-icon-s-grid"></i>Problems</a></el-menu-item>
+    <el-menu-item index="1"><router-link :to="`/`"><i class="el-icon-s-home"></i>Home</router-link></el-menu-item>
+    <el-menu-item index="2"><router-link :to="`/problems`"><i class="el-icon-s-grid"></i>Problems</router-link></el-menu-item>
     <el-menu-item index="3"><a href="https://www.ele.me"><i class="el-icon-trophy"></i>Contests</a></el-menu-item>
     <el-menu-item index="4"><a href="https://www.ele.me"><i class="el-icon-s-marketing"></i>Status</a></el-menu-item>
     <el-menu-item index="5"><a href="https://www.ele.me"><i class="el-icon-s-data"></i>Rank</a></el-menu-item>
