@@ -32,4 +32,8 @@ body,html{
 a{
   text-decoration: none;
 }
+.content{
+  margin-top: 60px;
+  background-color: red;
+}
 </style>

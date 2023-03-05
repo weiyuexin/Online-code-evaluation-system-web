@@ -1,6 +1,6 @@
 <template>
   <div>
-    <NavBar :active="`/rank`"></NavBar>
+    <NavBar :active="`/blog`"></NavBar>
     <div class="content">
 
     </div>
@@ -12,7 +12,7 @@
 import NavBar from "@/components/oj/common/NavBar.vue";
 import Footer from "@/components/oj/common/Footer";
 export default {
-  name: "Rank",
+  name: "Blog",
   data() {
     return {};
   },
