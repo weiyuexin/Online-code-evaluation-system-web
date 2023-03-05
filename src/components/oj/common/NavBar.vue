@@ -2,7 +2,7 @@
   <div class="nav">
     <el-menu :default-active="activeIndex" router active-text-color="#409EFF" class="oj-navbar" mode="horizontal"
              @select="handleSelect">
-      <el-menu-item index="/logo" class="logo"><img src="@/assets/logo.png"/></el-menu-item>
+      <el-menu-item index="/logo" class="logo"><img src="@/assets/logo_footer.png"/></el-menu-item>
       <el-menu-item index="/"><i class="el-icon-s-home"></i>首页</el-menu-item>
       <el-menu-item index="/problems"><i class="el-icon-s-grid"></i>题目</el-menu-item>
       <el-menu-item index="/contest"><i class="el-icon-trophy"></i>竞赛</el-menu-item>
