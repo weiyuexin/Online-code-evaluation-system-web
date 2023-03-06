@@ -23,7 +23,6 @@ export default {
   margin: 0px;
   padding: 0px;
   width: 100%;
-  height: 1000px;
 }
 body,html{
   margin: 0;
@@ -34,6 +33,6 @@ a{
 }
 .content{
   margin-top: 60px;
-  background-color: red;
 }
+
 </style>

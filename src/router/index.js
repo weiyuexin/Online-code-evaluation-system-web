@@ -8,6 +8,7 @@ import Status from "@/views/oj/status/Status";
 import Rank from "@/views/oj/rank/Rank";
 import Blog from "@/views/oj/blog/Blog";
 import About from "@/views/oj/About";
+
 Vue.use(Router)
 
 export default new Router({
@@ -21,6 +22,7 @@ export default new Router({
             redirect: "/"
         },
         {
+            name: "main",
             path: '/',
             component: Main
         },

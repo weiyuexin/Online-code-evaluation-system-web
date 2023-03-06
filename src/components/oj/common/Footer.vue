@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="8">
         <div class="logo">
-          <img src="@/assets/logo_footer.png">
+          <router-link :to="{name:`main`}"><img src="@/assets/logo_footer.png"></router-link>
         </div>
       </el-col>
       <el-col :span="8">
@@ -41,9 +41,8 @@ export default {
 .footer {
   width: 100%;
   height: 150px;
-  position: fixed;
-  bottom: 0;
   background-color: #fff;
+  margin-top: 30px;
 }
 
 .el-row {
@@ -72,10 +71,10 @@ export default {
   width: 22%;
   text-align: center;
 }
-.link{
+
+.link {
   height: 100%;
   text-align: center;
-  padding-top: 120px;
   color: #000;
   font-size: 18px;
 }

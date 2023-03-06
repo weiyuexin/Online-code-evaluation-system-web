@@ -48,6 +48,8 @@ export default {
   width: 100%;
   top: 0;
   border-bottom: solid 1px #EFF3F5;
+  z-index: 999;
+  box-shadow: 0 1px 5px 0 rgb(0 0 0 / 10%);
 }
 
 .logo {
