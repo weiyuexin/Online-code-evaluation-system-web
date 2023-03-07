@@ -14,8 +14,8 @@
                   <el-input
                       size="medium"
                       placeholder="请输入关键字搜索"
-                      suffix-icon="el-icon-search"
                       v-model="search">
+                    <i slot="suffix" @click="goToSearch" class="el-input__icon el-icon-search"></i>
                   </el-input>
                 </el-col>
               </el-row>
@@ -92,7 +92,7 @@ export default {
   name: "ProblemList",
   data() {
     return {
-      search:'',
+      search: '',
       currentPage: 1,
       problems: [{
         id: '23',
@@ -224,6 +224,9 @@ export default {
     },
     handleCurrentChange(val) {
       console.log(`当前页: ${val}`);
+    },
+    goToSearch() {
+      alert("搜索")
     }
   },
 }
@@ -257,19 +260,26 @@ export default {
 .container {
   padding-top: 20px;
 }
-.container .title{
+
+.container .title {
   background-color: #ffffff;
   height: 100px;
 }
-.container .title .list{
+
+.container .title .list {
   font-size: 25px;
   text-align: left;
   padding-top: 10px;
   padding-left: 10px;
 }
-.container .title .search{
+
+.container .title .search {
   width: 250px;
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.el-icon-search {
+  cursor: pointer;
 }
 </style>
