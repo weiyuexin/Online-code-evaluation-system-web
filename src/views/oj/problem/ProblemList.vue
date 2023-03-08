@@ -219,6 +219,9 @@ export default {
     Footer
   },
   methods: {
+    created() {
+      document.title = '这是标题';
+    },
     handleSizeChange(val) {
       console.log(`每页 ${val} 条`);
     },

@@ -24,32 +24,53 @@ export default new Router({
         {
             name: "main",
             path: '/',
-            component: Main
+            component: Main,
+            meta:{
+                title: "Home - Online Judge - Henu"
+            }
         },
         {
             path: "/problems",
-            component: ProblemList
+            component: ProblemList,
+            meta: {
+                title: 'Problems - Online Judge - Henu',
+            }
         },
         {
             path: "/contest",
-            component: ContestList
+            component: ContestList,
+            meta:{
+                title: "Contest - Online Judge - Henu"
+            }
         },
         {
             path: "/status",
-            component: Status
+            component: Status,
+            meta:{
+                title: "Status - Online Judge - Henu"
+            }
         },
         {
             path: "/rank",
-            component: Rank
+            component: Rank,
+            meta:{
+                title: "Rank - Online Judge - Henu"
+            }
         },
         {
             path: "/blog",
-            component: Blog
+            component: Blog,
+            meta:{
+                title: "Blog - Online Judge - Henu"
+            }
         },
         {
             path: "/about",
-            component: About
+            component: About,
+            meta:{
+                title: "About - Online Judge - Henu"
+            }
         },
 
-    ]
+    ],
 })
