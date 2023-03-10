@@ -7,7 +7,7 @@ import ContestList from "@/views/oj/contest/ContestList";
 import Status from "@/views/oj/status/Status";
 import Rank from "@/views/oj/rank/Rank";
 import Blog from "@/views/oj/blog/Blog";
-import About from "@/views/oj/About";
+import About from "@/views/oj/about/About";
 
 Vue.use(Router)
 

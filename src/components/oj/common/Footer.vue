@@ -3,7 +3,7 @@
     <el-row>
       <el-col :span="8">
         <div class="logo">
-          <router-link :to="{name:`main`}"><img src="@/assets/logo_footer.png"></router-link>
+          <router-link :to="{name:`main`}"><img src="@/assets/logo_henu.png"></router-link>
         </div>
       </el-col>
       <el-col :span="8">
