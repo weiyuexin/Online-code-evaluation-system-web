@@ -9,6 +9,9 @@
               <el-col :span="24" class="div-title">
                 编译环境
               </el-col>
+              <el-col :span="24" class="div-title">
+                <CodeBlock></CodeBlock>
+              </el-col>
             </el-row>
           </div>
         </el-col>
@@ -30,7 +33,7 @@
 <script>
 import NavBar from "@/components/oj/common/NavBar.vue";
 import Footer from "@/components/oj/common/Footer";
-
+import CodeBlock from "@/components/oj/code/CodeBlock";
 export default {
   name: "About",
   data() {
@@ -38,7 +41,8 @@ export default {
   },
   components: {
     NavBar,
-    Footer
+    Footer,
+    CodeBlock
   }
 }
 </script>
